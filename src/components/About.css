@@ -1,0 +1,23 @@
+.about .container h1 {
+    text-align: center;
+    padding-top: 7px;
+
+   
+}
+
+.about .content {
+    padding-top: 17px; 
+    padding-bottom: 17px;
+    /* height: 100%; */
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+.about .container .content .aboutpic {
+    background: url('./images/welding.jpg') no-repeat center center/cover;
+height: 100%;
+padding-right: 10px;
+}
